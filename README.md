@@ -6,3 +6,13 @@
 
 - Daniel Lujan Agudelo
 - Juan Pablo Arango Gaviria
+
+## **Notebooks**
+
+Los notebooks se encuentran enumerados en el orden en el que deben ser ejecutados para reproducir los resultados:
+
+1. **EDA:** Exploración inicial del conjunto de datos (columnas, tipos de datos, análisis multivariable, valores atípicos, datos faltantes, correlación)
+2. **Preprocesamiento**: Tratamiento a columnas con datos faltantes, eliminación de columnas equivalentes, codificación de variables categóricas. El conjunto de datos con los tratamientos aplicados se exportaron en forma de binarios a las rutas `/preprocessed-data/basic/X-preprocessed.p` y `/preprocessed-data/basic/y-preprocessed.p`.
+3. **Balance de clases**: Se aplicó submuestreo para balancear las clases. El conjunto de datos con las clases balanceadas se guardaron en forma de binarios en las rutas `/preprocessed-data/final/X-preprocessed.p` y `/preprocessed-data/final/y-preprocessed.p`.
+4. **Entrenamiento de modelos**: Aplicación de 3 tipos de modelos: LogisticRegression, RandomForestClassifier y KMeans. Las predicciones de clase generadas por todos los modelos fueron guardadas como binarios en el directorio `model_results`.
+5. **Análisis de resultados**: Cálculo de métricas de evaluación y comparación entre los resultados de los modelos.
