@@ -15,4 +15,5 @@ Los notebooks se encuentran enumerados en el orden en el que deben ser ejecutado
 2. **Preprocesamiento**: Tratamiento a columnas con datos faltantes, eliminación de columnas equivalentes, codificación de variables categóricas. El conjunto de datos con los tratamientos aplicados se exportaron en forma de binarios a las rutas `/preprocessed-data/basic/X-preprocessed.p` y `/preprocessed-data/basic/y-preprocessed.p`.
 3. **Balance de clases**: Se aplicó submuestreo para balancear las clases. El conjunto de datos con las clases balanceadas se guardaron en forma de binarios en las rutas `/preprocessed-data/final/X-preprocessed.p` y `/preprocessed-data/final/y-preprocessed.p`.
 4. **Entrenamiento de modelos**: Aplicación de 3 tipos de modelos: LogisticRegression, RandomForestClassifier y KMeans. Las predicciones de clase generadas por todos los modelos fueron guardadas como binarios en el directorio `model_results`.
-5. **Análisis de resultados**: Cálculo de métricas de evaluación y comparación entre los resultados de los modelos.
+5. **Red neuronal**: Se implementó una red neuronal. Se realizó una busqueda de mejor configuración de capas ocultas y se almacenaron de igual forma los resultados.
+6. **Análisis de resultados**: Cálculo de métricas de evaluación y comparación entre los resultados de los modelos.
