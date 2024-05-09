@@ -1,13 +1,23 @@
-# **Modelos II - Entregable**
+# **Aprendizaje automático - Predicción de Ingresos**
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
+*Universidad de Antioquia - Facultad de INgeniería - Ingeniería de Sistemas*
+
+> [!IMPORTANT]  
+> Este es un proyecto con propósitos académicos para el curso de Modelos y Simulación de Sistemas II.
 
 ## **Integrantes**
 
 - Daniel Lujan Agudelo
 - Juan Pablo Arango Gaviria
 
-## **Notebooks**
+## **API**
+Se realizó la implementación de una API que entrena y sirve el mejor modelo para realizar predicciones con el modelo.
+
+Repositorio: https://github.com/daniel-lujan/income-prediction-api
+
+## **Descripción Notebooks**
 
 Los notebooks se encuentran enumerados en el orden en el que deben ser ejecutados para reproducir los resultados:
 
