@@ -7,6 +7,8 @@
 > [!IMPORTANT]  
 > Este es un proyecto con propósitos académicos para el curso de Modelos y Simulación de Sistemas II.
 
+**Artículo científico:** [Aplicación de aprendizaje automático para la predicción de ingresos anuales](https://portfolio.cloudstorage.lujn.dev/Aplicaci%C3%B3n%20de%20aprendizaje%20autom%C3%A1tico%20para%20la%20predicci%C3%B3n%20de%20ingresos%20anuales.pdf)
+
 ## **Integrantes**
 
 - Daniel Lujan Agudelo
